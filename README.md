@@ -35,3 +35,7 @@ Dashboard principal (#dashboard-view)
 Error 404 (#not-found-view)
 
 Estas se muestran u ocultan con JavaScript dependiendo de la acción del usuario.
+
+error en la linea 190 o 172 donde dice la creacion de el objeto newEvent(const newEvent = { name, description, capacity, date, enrolled: 0 };) y cambiarlo al siguiente...>
+
+ const newEvent = { name, description, capacity, date, enrolled: ""};
