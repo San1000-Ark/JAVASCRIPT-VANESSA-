@@ -1,3 +1,16 @@
+// Detectar hash
+window.addEventListener('hashchange', () => {
+  loadRoute(location.hash.slice(1));
+});
+
+//lo pense hacer con ID pero a lo ultimo no me dio tiempo
+/*buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    const route = button.dataset.route;
+    localtion.hash = route;
+  });
+});*/
+
 // 🌐 URL base del servidor JSON Server donde están los usuarios, eventos, inscripciones, etc.
 const API_URL = "http://localhost:3000"; // Aquí se indica la raíz de la API que estamos usando
 
